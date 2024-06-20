@@ -47,12 +47,12 @@ A Streamlit web application for object detection using a pre-trained YOLOv5 mode
 4. **View the annotated image and the list of detected objects.**
 
 ## Project Structure
-
+```
 object-detector/
 ├── app.py # Main Streamlit application
 ├── requirements.txt # List of dependencies
 └── .gitignore # Git ignore file
-
+```
 ## Requirements
 
 - streamlit
