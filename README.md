@@ -9,9 +9,7 @@ A Streamlit web application for object detection using a pre-trained YOLOv5 mode
 - Display the annotated image and a list of detected objects with confidence scores.
 - Dark theme for a modern and user-friendly interface.
 
-## Demo
 
-![Demo Image](demo.png)
 
 ## Installation
 
@@ -50,3 +48,35 @@ A Streamlit web application for object detection using a pre-trained YOLOv5 mode
 
 ## Project Structure
 
+object-detector/
+├── app.py # Main Streamlit application
+├── requirements.txt # List of dependencies
+└── .gitignore # Git ignore file
+
+## Requirements
+
+- streamlit
+- torch
+- Pillow
+- numpy
+
+## Install the requirements using:
+```sh
+pip install -r requirements.txt
+```
+## Example
+Upload an image, and the application will display the following:
+
+1-Annotated image with bounding boxes and labels for detected objects.
+2-List of detected objects with their confidence scores.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgements
+Streamlit
+YOLOv5
+PyTorch
